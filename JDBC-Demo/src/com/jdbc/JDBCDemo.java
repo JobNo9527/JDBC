@@ -21,7 +21,7 @@ public class JDBCDemo {
         Connection conn = DriverManager.getConnection(url, username, password);
 
         // 3.定义sql语句
-        String sql = "update account set money = 2000 where id = 1";
+        String sql = "update user1 set money = 3000 where id = 1";
 
         // 4.获取执行sql的对象 Statement
         Statement stmt = conn.createStatement();
